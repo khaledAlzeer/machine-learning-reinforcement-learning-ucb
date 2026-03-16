@@ -8,7 +8,7 @@ Reinforcement Learning is a powerful branch of Machine Learning used to solve in
 
 It is also used for Artificial Intelligence when training machines to perform tasks such as walking. Desired outcomes provide the AI with reward, undesired with punishment. Machines learn through trial and error.
 
-In this part, the following Reinforcement Learning model is implemented:
+In this repository, the following Reinforcement Learning model is implemented:
 
 - **Upper Confidence Bound (UCB)**
 
@@ -22,12 +22,12 @@ A business wants to know which of **10 different ads** generates the most clicks
 
 ## Dataset
 
-| Property       | Details                              |
-|----------------|--------------------------------------|
-| **File**       | `Ads_CTR_Optimisation.csv`           |
-| **Rows**       | 10,000 users (rounds)                |
-| **Columns**    | 10 ads                               |
-| **Values**     | Binary (1 = clicked, 0 = not clicked)|
+| Property   | Details                               |
+|------------|---------------------------------------|
+| **File**   | `Ads_CTR_Optimisation.csv`            |
+| **Rows**   | 10,000 users (rounds)                 |
+| **Columns**| 10 ads                                |
+| **Values** | Binary (1 = clicked, 0 = not clicked) |
 
 Each row represents a user. Each column represents whether that user would have clicked a specific ad. The UCB algorithm selects one ad per round without seeing the full row — simulating a real-world online decision.
 
@@ -72,4 +72,3 @@ pip install numpy pandas matplotlib
 ## Results
 
 UCB successfully identifies the best-performing ad within the first ~1,000 rounds and continues to exploit it for the remaining 9,000 rounds — significantly outperforming random selection.
-

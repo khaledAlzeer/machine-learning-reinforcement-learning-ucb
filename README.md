@@ -1,7 +1,5 @@
 # Reinforcement Learning — Upper Confidence Bound (UCB)
 
-> Part 6 of the Machine Learning series | Reinforcement Learning
-
 ---
 
 ## Overview

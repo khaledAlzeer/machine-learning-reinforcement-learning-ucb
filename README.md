@@ -75,6 +75,3 @@ pip install numpy pandas matplotlib
 
 UCB successfully identifies the best-performing ad within the first ~1,000 rounds and continues to exploit it for the remaining 9,000 rounds — significantly outperforming random selection.
 
----
-
-*Part of the Machine Learning A-Z series — Reinforcement Learning section.*
